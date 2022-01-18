@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'ecoco2_app'
 ]
 
 MIDDLEWARE = [
@@ -112,6 +113,7 @@ USE_I18N = True
 USE_L10N = True
 
 USE_TZ = True
+TIME_ZONE = 'Europe/Paris'
 
 
 # Static files (CSS, JavaScript, Images)

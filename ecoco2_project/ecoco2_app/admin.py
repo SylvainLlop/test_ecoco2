@@ -1,3 +1,4 @@
 from django.contrib import admin
-
-# Register your models here.
+from .models import CO2rate
+    
+admin.site.register(CO2rate)
