@@ -1,0 +1,28 @@
+body {
+    background: #F9FAFD;
+    font-family: "Segoe";
+    font-size: 100%;
+  }
+
+table {
+    border: 2px solid #F5E3DE;
+    width: 50%;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: "Segoe";
+    font-size: 100%;
+  }
+  table tr {
+    border: 1px solid #ADD8E6;
+    padding: 3px 3px;
+  }
+  table thead {
+      border-bottom: 3px solid #ADD8E6;
+  }
+  table thead th {
+    font-weight: bold;
+    text-align: center;
+  }
+  table tfoot td {
+    font-size: 14px;
+  }
